@@ -1,0 +1,26 @@
+.statistics {
+  width: 70%;
+  min-width: 400px;
+  text-align: center;
+  border: 1px solid seagreen;
+  margin: 3% auto;
+}
+
+.title {
+  text-transform: uppercase;
+}
+.stat_list {
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.list {
+  background-color: aqua;
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+}
