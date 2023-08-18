@@ -1,0 +1,42 @@
+.box {
+  width: 40%;
+  min-width: 400px;
+  text-align: center;
+  margin: 3% auto;
+}
+
+.title {
+  text-transform: uppercase;
+}
+.friends_list {
+  text-align: center;
+  display: block;
+}
+
+.list {
+  display: flex;
+  border: 1px solid rgb(62, 62, 62);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 2% auto;
+  padding: 10px 20px;
+  width: 70%;
+  min-width: 300px;
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 10%;
+}
+.avatar {
+  border: 1px solid rgb(62, 62, 62);
+  border-radius: 8px;
+  width: 80px;
+  margin: 0 30px;
+}
+
+.name {
+  font-size: x-large;
+  font-weight: 600;
+}
