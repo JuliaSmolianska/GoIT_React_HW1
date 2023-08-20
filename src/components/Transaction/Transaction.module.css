@@ -1,0 +1,35 @@
+.title {
+  text-align: center;
+  margin-top: 5%;
+}
+.transaction_history {
+  width: 50%;
+  min-width: 300px;
+  border: 1px solid rgb(62, 62, 62);
+  margin: 2% auto;
+  flex-wrap: nowrap;
+  padding: 0;
+  border-collapse: collapse;
+}
+.title_colomns {
+  color: white;
+}
+.transaction_header {
+  background-color: aquamarine;
+  padding: 20px;
+  text-align: center;
+  font-size: larger;
+}
+
+th {
+  border: 1px solid rgb(62, 62, 62);
+  margin: 0;
+  padding: 10px 10px 10px 12%;
+  width: 33%;
+  text-align: left;
+  color: rgb(130, 130, 130);
+}
+
+tr:nth-child(even) {
+  background-color: #efefef;
+}
