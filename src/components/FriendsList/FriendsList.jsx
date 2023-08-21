@@ -1,5 +1,6 @@
 import css from './FriendsList.module.css';
 import FriendsListCard from './FriendsListCard';
+import PropTypes from 'prop-types';
 
 const FriendsList = ({ friends }) => {
   return (
@@ -14,6 +15,15 @@ const FriendsList = ({ friends }) => {
       </ul>
     </section>
   );
+};
+
+FriendsList.propTypes = {
+  friends: PropTypes.shape({
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    isOnline: PropTypes.bool.isRequired,
+    id: PropTypes.number.isRequired,
+  }).isRequired,
 };
 
 export default FriendsList;

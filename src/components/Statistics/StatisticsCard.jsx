@@ -8,3 +8,5 @@ const StatisticsCard = ({ items: { label, percentage } }) => {
 };
 
 export default StatisticsCard;
+
+
