@@ -1,4 +1,5 @@
 import css from './Transaction.module.css';
+import PropTypes from 'prop-types';
 
 const Transactions = ({ item: { type, amount, currency } }) => {
   return (
@@ -8,6 +9,14 @@ const Transactions = ({ item: { type, amount, currency } }) => {
       <th>{currency}</th>
     </>
   );
+};
+
+Transactions.propTypes = {
+  item: PropTypes.shape({
+    type: PropTypes.string.isRequired,
+    amount: PropTypes.string.isRequired,
+    currency: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Transactions;

@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const StatisticsCard = ({ items: { label, percentage } }) => {
   return (
     <>
@@ -7,6 +9,11 @@ const StatisticsCard = ({ items: { label, percentage } }) => {
   );
 };
 
+StatisticsCard.propTypes = {
+  items: PropTypes.shape({
+    label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired,
+  }).isRequired,
+};
+
 export default StatisticsCard;
-
-
